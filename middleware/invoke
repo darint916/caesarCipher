@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#
+# simtool
+#
+/usr/bin/invoke_app "$@" -t st4pnjunction \
+                         -C "start_jupyter -t -T @tool workflow.ipynb" \
+                         -u anaconda-6
