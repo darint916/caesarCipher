@@ -3,6 +3,6 @@
 #
 # simtool
 #
-/usr/bin/invoke_app "$@" -t stpnjunction \
+/usr/bin/invoke_app "$@" -t caesarCipher \
                          -C "start_jupyter -t -T @tool workflow.ipynb" \
                          -u anaconda-6
