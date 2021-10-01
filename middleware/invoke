@@ -3,6 +3,6 @@
 #
 # simtool
 #
-/usr/bin/invoke_app "$@" -t caesarCipher \
+/usr/bin/invoke_app "$@" -t caecipher \
                          -C "start_jupyter -t -T @tool workflow.ipynb" \
                          -u anaconda-6
