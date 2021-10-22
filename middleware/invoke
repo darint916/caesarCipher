@@ -4,5 +4,5 @@
 # simtool
 #
 /usr/bin/invoke_app "$@" -t caecipher \
-                         -C "start_jupyter -t -T @tool workflow.ipynb" \
+                         -C "start_jupyter -t -A -T @tool workflow.ipynb" \
                          -u anaconda-6
